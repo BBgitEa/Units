@@ -1,0 +1,30 @@
+{
+  "name": "units",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "@types/uuid": "^10.0.0",
+    "svelte": "^5.34.7",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.8.1",
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@codemirror/language": "^6.11.2",
+    "@codemirror/search": "^6.5.11",
+    "@codemirror/state": "^6.5.2",
+    "@codemirror/theme-one-dark": "^6.1.3",
+    "@codemirror/view": "^6.38.0",
+    "lucide-svelte": "^0.525.0",
+    "monaco-editor": "^0.52.2",
+    "uuid": "^11.1.0",
+    "vite-plugin-monaco-editor": "^1.1.0"
+  }
+}
